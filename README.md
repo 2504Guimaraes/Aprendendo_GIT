@@ -65,6 +65,22 @@ Caso você não queira mais que o seu arquivo escolhido seja rastreado e esteja 
 
 #### 5. **git status**
 
-Digitando apenas **git status** dentro da sua pasta linkada ao git, você consegue saber quais arquivos estão sendo observados / em espera para poderem ser **commitados**. Ou novamente o termo técnico que aparecerá: "*git staged files*".
+Digitando apenas **git status** dentro da sua pasta linkada ao git, você consegue saber quais arquivos estão sendo observados / em espera para poderem ser **commitados**. Ou novamente, como diz o termo técnico: "*git staged files*".
 
 Esses arquivos aparecerão em uma lista simples em verde, esperando que você finalmente dê um commit (**que você ainda não deu, claro**) e *finalmente os registre como um novo degral no grupo de mudanças importantes do seu projeto*. 😊
+
+#### 6. **git commit**
+
+Agora finalmente chegamos nele! **git commit**!!! <h4>"Ele é o responsável por pegar toda aquela lista de arquivos sendo rastreados e registra-los oficialmente como uma mudança dentro da linha do tempo de desenvolvimento do seu projeto."</h4>
+
+#### `Imagine comigo:`
+
+Imaginando que eu criei, pus para rastrear mudanças (**git add**) e modifiquei 1 arquivo.html mais 2 arquivos.css dentro do meu projeto. Quando eu desse **git commit** após ter feito tudo isso, eu registraria todos esses passos importantes, e ainda adicionaria uma descrição para falar oquê eu fiz. No meu caso, eu pessoalmente escreveria:
+
+#### `"Criação e modificação inicial de html e estilos."`
+
+Ou na forma de comando:
+
+#### `git commit -m "Criação e modificação inicial de html e estilos."`
+
+Como pode imaginar **-m** vem de *message* ou mensagem.
