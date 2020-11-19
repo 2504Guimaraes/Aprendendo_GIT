@@ -64,3 +64,7 @@ Adiciona todos os arquivos e pastas dentro do seu diretório git a lista de espe
 Caso você não queira mais que o seu arquivo escolhido seja rastreado e esteja na lista de espera, digite isso e ele voltará a ser só um arquivo comum.
 
 #### 5. **git status**
+
+Digitando apenas **git status** dentro da sua pasta linkada ao git, você consegue saber quais arquivos estão sendo observados / em espera para poderem ser **commitados**. Ou novamente o termo técnico que aparecerá: "*git staged files*".
+
+Esses arquivos aparecerão em uma lista simples em verde, esperando que você finalmente dê um commit (**que você ainda não deu, claro**) e *finalmente os registre como um novo degral no grupo de mudanças importantes do seu projeto*. 😊
