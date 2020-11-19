@@ -19,16 +19,6 @@ de versão.
 
 #### 2. Torne um diretório do seu coputador num diretório GIT 
 
-<div style="color: red;
-  font-weight: bold;
-  padding: 5px 10px;
-  background-color: #f3f3f3;
-  width: fit-content;
-  font-size: 0.95rem;
-  display: inline;">
-  Aviso abaixo
-</div>
-
 #### `Primeiro Comando mesmo!`
 
 Vá dentro da pasda desejada para se tornar seu repositório local do seu PC
