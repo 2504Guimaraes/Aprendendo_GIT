@@ -20,7 +20,7 @@ Verifique no seu prompt de comando, com o comando **git --version** se o git foi
 #### 1. Crie um repositório no Github
 Crie um repositório vazio no github para futuramente usá-lo para sincronizar um diretório dentro do seu computador a ele, e assim fazer seu esquema de controle de versão linkado ao seu github. 
 
-#### 2. Torne um diretório do seu coputador num diretório GIT 
+#### 2. Torne um diretório do seu computador num diretório GIT 
 
 #### `AVISO:`
 #### `O principal começa aqui.`
