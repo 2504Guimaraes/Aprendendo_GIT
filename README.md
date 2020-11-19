@@ -1,4 +1,6 @@
-# Repositório de Testes e comandos Git
+# Tutorial de comandos Git
+**`nota:`** ` eu posso ter feito alguns testes de comandos para aprendizado aqui dentro.`
+
 Esse arquivo tem como objetivo reforçar, ensinar e clarear na minha mente 
 alguns conceitos de versionamento de código.
 
