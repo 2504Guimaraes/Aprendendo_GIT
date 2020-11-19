@@ -48,14 +48,15 @@ Para fazer isso, digite dentro do prompt:
 
 
 #### 4. **git add**
-Agora que você finalmente inicializou sua pasta como um repositório local dentro do seu PC, que que já existe um repositório no Github esperando para se conectar  com este seu projeto aqui na sua máquina, já podemos fazer algo.
+Agora você finalmente inicializou sua pasta como um repositório local dentro do seu PC, e já existe um repositório no Github esperando para se conectar  com este seu projeto aqui na sua máquina. Nós já podemos fazer algo.
 
-De maneira normal, você derá criar / editar e excluir arquivos aqui dentro da sua pasta. Mas eles não estaram sendo rastreados de imediato pelo sistema de versionamento. Isso significa que qualquer alteração neles será tratada como qualquer outra em alguma pasta aleatória do seu computador.
+De maneira normal, você pode criar, editar e excluir arquivos aqui dentro da sua pasta. Mas eles não estarão sendo rastreados de imediato pelo sistema de versionamento. Isso significa que qualquer alteração neles será tratada como qualquer outra em alguma pasta aleatória do seu computador.
 
 Para ativar essa funcionalidade é necessário um dos seguintes comandos:
 
 - Variações:
   - **git add** *nome_arquivo_desejado*
-Adiciona o arquivo escolhido dentro do seu diretório git, à lista de espera (ou lista de arquivos rastreados / *git staged files*) para serem commitados.
+Adiciona o arquivo escolhido dentro do seu diretório git, à lista de espera (ou lista de arquivos rastreados / *git staged files*) para serem **commitados FUTURAMENTE** (resumindo, agora o sistema está de olho neles 👀). E sempre que você mudar alguma coisa neles, ou apagá-los, isso será registrado.
+
   - **git add .**
 Adiciona todos os arquivos e pastas dentro do seu diretório git a lista de espera para serem commitados. Também conhecida como *git staged files waiting for commit*.
