@@ -18,7 +18,19 @@ um diretório dentro do seu computador a ele, e assim fazer seu esquema de contr
 de versão. 
 
 #### 2. Torne um diretório do seu coputador num diretório GIT 
+
+<div style="color: red;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: #f3f3f3;
+  width: fit-content;
+  font-size: 0.95rem;
+  display: inline;">
+  Aviso abaixo
+</div>
+
 #### `Primeiro Comando mesmo!`
+
 Vá dentro da pasda desejada para se tornar seu repositório local do seu PC
 por meio do cmd. Dentro dela digite o comando **git init**.
 
