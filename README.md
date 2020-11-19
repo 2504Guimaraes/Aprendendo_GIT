@@ -10,13 +10,23 @@ Todos os comandos aqui listados serão apresentados com
 técnicas de formatação(*markdown*) vindas do próprio 
 [Github Guides!](https://guides.github.com/features/mastering-markdown/)
 
-### Lista de Comandos GIT
+## Primeiros passos e lista de comandos:
 
-#### 1. **git add**
+#### 1. Crie um repositório no Github
+Crie um repositório vazio no github para futuramente usá-lo para sincronizar 
+um diretório dentro do seu computador a ele, e assim fazer seu esquema de controle
+de versão. 
+
+#### 2. Torne um diretório do seu coputador num diretório GIT 
+#### `Primeiro Comando mesmo!`
+Vá dentro da pasda desejada para se tornar seu repositório local do seu PC
+por meio do cmd. Dentro dela digite o comando **git init**.
+
+Isso fará com que seu PC reconheça agora esapasta como um repositório local GIT.
+
+#### 3. **git add**
 - Variações:
   - **git add** *nome_arquivo_desejado*
-O primeiro adiciona todos os arquivos dentro da minha pasta
-a minha lista de preparação (lista de arquivos rastreados) para poderem
-ser devidamente mapeados num commit na timeline GIT.
+Adiciona o arquivo escolhido dentro do seu diretório git, à lista de espera (ou lista de arquivos rastreados / *git staged files*) para serem commitados.
   - **git add .**
 Adiciona todos os arquivos e pastas dentro do seu diretório git a lista de espera para serem commitados. Também conhecida como *git staged files waiting for commit*.
