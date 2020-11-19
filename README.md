@@ -13,7 +13,7 @@ técnicas de formatação(*markdown*) vindas do próprio
 ## Primeiros passos e lista de comandos:
 
 #### 0. Faça download do GIT (caso não tenha)
-Você precisará desse programa, pois ele é justamente o programa controlador de versão. Caso você use windows, vá até esse [link](https://git-scm.com/download/win) para download do mesmo.
+Você precisará desse programa, pois ele é justamente o programa controlador de versão. Caso você use windows, vá até esse [link](https://git-scm.com/download/win) para download **`instantâneo`** do mesmo.
 
 Verifique no seu prompt de comando, com o comando **git --version** se o git foi instalado. Caso afirmativo, aparecerá o número da versão, caso contrário o windows simplesmente avisará que não há nenhum comando dessa natureza registrado.
 
@@ -55,8 +55,12 @@ De maneira normal, você pode criar, editar e excluir arquivos aqui dentro da su
 Para ativar essa funcionalidade é necessário um dos seguintes comandos:
 
 - Variações:
-  - **git add** *nome_arquivo_desejado*
-Adiciona o arquivo escolhido dentro do seu diretório git, à lista de espera (ou lista de arquivos rastreados / *git staged files*) para serem **commitados FUTURAMENTE** (resumindo, agora o sistema está de olho neles 👀). E sempre que você mudar alguma coisa neles, ou apagá-los, isso será registrado.
+  - **git add** *nome_arquivo_escolhido*
+Adiciona o arquivo escolhido dentro do seu diretório git, à lista de espera (ou lista de arquivos rastreados / *git staged files*) para serem **commitados futuramente** (resumindo, agora o sistema está de olho neles 👀). E sempre que você mudar alguma coisa neles, ou apagá-los, isso será registrado.
 
   - **git add .**
 Adiciona todos os arquivos e pastas dentro do seu diretório git a lista de espera para serem commitados. Também conhecida como *git staged files waiting for commit*.
+  - **git restore --staged** nome_arquivo
+Caso você não queira mais que o seu arquivo escolhido seja rastreado e esteja na lista de espera, digite isso e ele voltará a ser só um arquivo comum.
+
+#### 5. **git status**
