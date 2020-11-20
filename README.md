@@ -82,7 +82,7 @@ Agora finalmente chegamos nele! **git commit**!!! <h4>"Ele é o responsável por
 
 #### `Imagine comigo:`
 
-Imaginando que eu criei, pus para rastrear mudanças (**git add**) e modifiquei 1 arquivo.html mais 2 arquivos.css dentro do meu projeto. Quando eu desse **git commit** após ter feito tudo isso, eu registraria todos esses passos importantes, e ainda adicionaria uma descrição para falar oquê eu fiz. No meu caso, eu pessoalmente escreveria:
+Imaginando que eu criei, pus para rastrear mudanças (**git add**) e modifiquei 1 arquivo.html mais 2 arquivos.css dentro do meu projeto. Quando eu desse **git commit** após ter feito tudo isso, eu registraria todos esses passos importantes, e ainda adicionaria uma descrição para falar o quê eu fiz. No meu caso, eu pessoalmente escreveria:
 
 #### `"Criação e modificação inicial de html e estilos."`
 
@@ -92,8 +92,20 @@ Ou na forma de comando:
 
 Como pode imaginar **-m** vem de *message* ou mensagem.
 
-Ou seja, a grande idéia é que cada **commit** representa um bloco de mudanças marcantes que eu fiz em um determinado momento.
+Ou seja, a grande idéia é que cada **commit** representa um **bloco de mudanças marcantes que eu fiz em um determinado momento**.
 
 - Variações:
-  - **git commit** -m "texto descritivo"
-    - Quando você faz um **commit**, é **obrigatório** que você ponha um título descrevendo oque você fez. Pois o grande propósito da coisa é justamente que outras pessoas que venham a ver seu código e que trabalham com você entendam oquê você fez e os seus motivos para isso naquele momento.
+  - **git commit -m** "título descritivo"
+    - Quando você faz um **commit**, é **obrigatório** que você ponha um título descrevendo o quê você fez. Pois o grande propósito da coisa é justamente que outras pessoas que venham a ver seu código e que trabalham com você entendam o quê você fez e os seus motivos para isso naquele momento.
+  - **git commit -m** "título" **-d** "parágrafo descritivo"
+    - Esse é exatamente igual ao anterior só que dá a você alternativa a mais de ir um pouco além na descrição, porém é um pouco desconfortável pois o prompt de comando não permite quebra de linhas e fica difícil de escrever algo muito grande. 
+  - **git commit**
+    - #### `AVISO:`
+    - ##### `Não é possível usar esse comando sem algumas exigências.`
+    - Honestamente, esse daqui é o melhor comando de todos (ao menos para mim :P) pois ele permite que quando eu der **commit**, meus commits tenham tanto títulos descentes do que eu mudei, quanto parágrafos bem definidos caso a mudança nos meus arquivos tenha sido muito grande ou complexa.
+    - **Porém de imediato o prompt de comando não reconhece ele, e dará erro caso você só escreva git commit agora**. Para que o prompt do windows aceite essa variação, escreva no seu prompt a seguinte instrução:
+    - #### ` git config --global core.editor "code --wait" `
+    - Isso fará com que o VScode seja reconhecido como a ferramenta que te ajudará a escrever melhores descrições. 
+    - **Finalmente**, assim que eu escrevo o comando **git commit**, o prompt ligará o VScode automaticamente, e me mostrará uma janela para eu poder escrever tanto o título do meu commit quanto o parágrafo descritivo. Se eu quiser, só o título mesmo.
+    - Quando essa tela do VScode aparecer, ela terá textos escritos com hashtag (**#**) antes deles e eles não devem ser apagados. O quê você deve fazer é simplesmente escrever debaixo desses textos o seu título. Caso você quiser um parágrafo descritivo também, para fazer isso só dê um enter, pule uma linha e escreva-o.
+    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado :D.
