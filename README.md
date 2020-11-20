@@ -102,10 +102,10 @@ Ou seja, a grande idéia é que cada **commit** representa um **bloco de mudanç
   - **git commit**
     - #### `AVISO:`
     - ##### `Não é possível usar esse comando sem algumas exigências.`
-    - Honestamente, esse daqui é o melhor comando de todos (ao menos para mim :P) pois ele permite que quando eu der **commit**, meus commits tenham tanto títulos descentes do que eu mudei, quanto parágrafos bem definidos caso a mudança nos meus arquivos tenha sido muito grande ou complexa.
+    - Honestamente, esse daqui é o melhor comando de todos (ao menos para mim 😅) pois ele permite que quando eu der **commit**, meus commits tenham tanto títulos descentes do que eu mudei, quanto parágrafos bem definidos caso a mudança nos meus arquivos tenha sido muito grande ou complexa.
     - **Porém de imediato o prompt de comando não reconhece ele, e dará erro caso você só escreva git commit agora**. Para que o prompt do windows aceite essa variação, escreva no seu prompt a seguinte instrução:
     - #### ` git config --global core.editor "code --wait" `
     - Isso fará com que o VScode seja reconhecido como a ferramenta que te ajudará a escrever melhores descrições. 
     - **Finalmente**, assim que eu escrevo o comando **git commit**, o prompt ligará o VScode automaticamente, e me mostrará uma janela para eu poder escrever tanto o título do meu commit quanto o parágrafo descritivo. Se eu quiser, só o título mesmo.
     - Quando essa tela do VScode aparecer, ela terá textos escritos com hashtag (**#**) antes deles e eles não devem ser apagados. O quê você deve fazer é simplesmente escrever debaixo desses textos o seu título. Caso você quiser um parágrafo descritivo também, para fazer isso só dê um enter, pule uma linha e escreva-o.
-    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado :D.
+    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado 😁.
