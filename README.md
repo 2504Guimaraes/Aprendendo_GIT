@@ -91,3 +91,9 @@ Ou na forma de comando:
 #### `git commit -m "Criação e modificação inicial de html e estilos."`
 
 Como pode imaginar **-m** vem de *message* ou mensagem.
+
+Ou seja, a grande idéia é que cada **commit** representa um bloco de mudanças marcantes que eu fiz em um determinado momento.
+
+- Variações:
+  - **git commit** -m "texto descritivo"
+    - Quando você faz um **commit**, é **obrigatório** que você ponha um título descrevendo oque você fez. Pois o grande propósito da coisa é justamente que outras pessoas que venham a ver seu código e que trabalham com você entendam oquê você fez e os seus motivos para isso naquele momento.
