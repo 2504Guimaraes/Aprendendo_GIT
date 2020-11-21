@@ -97,7 +97,7 @@ Ou seja, a grande idéia é que cada **commit** representa um **bloco de mudanç
 - Variações:
   - **git commit -m** "título descritivo"
     - Quando você faz um **commit**, é **obrigatório** que você ponha um título descrevendo o quê você fez. Pois o grande propósito da coisa é justamente que outras pessoas que venham a ver seu código e que trabalham com você entendam o quê você fez e os seus motivos para isso naquele momento.
-  - **git commit -m** "título" **-d** "parágrafo descritivo"
+  - **git commit -m** "título" **-m** "parágrafo descritivo"
     - Esse é exatamente igual ao anterior só que dá a você alternativa a mais de ir um pouco além na descrição, porém é um pouco desconfortável pois o prompt de comando não permite quebra de linhas e fica difícil de escrever algo muito grande. 
   - **git commit**
     - #### `AVISO:`
@@ -154,6 +154,12 @@ Um comando muito simples e bacana, caso você tenha arquivos que não foram nem 
 Esse aqui é um comando muito útil, caso você queira ver todos os **commits** que você fez; digite simplesmente **git log**. Mostrando dados como, nome do branch local no qual você fez seu **commit**, para onde você os mandou (se os mandou para algum repositório remoto), data do **commit**, email do autor (email que você botou) e etc.
 
 Caso você tenha feito muitos commits, nem todos aparecerão, devido aos próprios limites de tamanho físico da tela, caso você queira que eles fiquem aparecendo na sua tela **igual a um terminal do linux**, apenas digite tecla para baixo ⬇️, e eles simplesmente irão aparecer deslizando. Caso não esteja interessado nisso, simplesmente aparte **w + q** igual no linux de novo, e pronto, a lista some.
+
+#### 11. git branch --show-current
+Mostra o **branch atual** que você está usando no seu repositório local do seu PC. Exemplos: **main** / **principal**, branch_de_testes, versão_do_projeto_bugada etc.
+
+#### 12. git branch
+Mostra todos os branches que o seu repositório local possui. Se você só tiver um e tiver acabado de criar seu repositório / projeto local, aparecerá "master" por padrão em verde.
 
 
 
