@@ -126,7 +126,7 @@ Para fazer isso use o comando:
 - ##### Exemplo abaixo:
 - **git remote add** `origin` https://github.com/nomeUsuario/SeuRepositorioGithub.git
 - Deixando bem claro, **origin é o apelido que o seu repositório local dará ao galho (branch) do seu repositório remoto, aquele que fica lá no seu github**.
-- Levando em conta que o git é uma linha do tempo que pode levar a várias versões alternativas; imagine que tudo isso é um grande árvore, a raiz é o início do universo e o tronco é a timeline principal. Além da linha do tempo principal, existem suas versões alternativas, que seriam galhos ou **branches** diferentes da nossa árvore. Você pode escolher qual em qual galho / timeline quer por suas atualizações, caso não queria ter o risco de comprometer o branch principal com algum erro, ponha em um alternativo.
+- Levando em conta que o git é uma linha do tempo que pode levar a várias versões alternativas; imagine que tudo isso é um grande árvore, a raiz é o início do universo e o tronco é a timeline principal. Além da linha do tempo principal, existem suas versões alternativas, que seriam galhos ou **branches** diferentes da nossa árvore. Você pode escolher em qual galho / timeline quer por suas atualizações, caso não queria ter o risco de comprometer o branch principal com algum erro, ponha em um alternativo.
 - Escreva esse comando para adicionar um novo branch de um repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um branch de repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
 
 #### `outras variações:`
