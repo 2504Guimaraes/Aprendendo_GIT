@@ -138,6 +138,6 @@ Para fazer isso use o comando:
     - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add...etc** de novo, e se eu quisesse poderia por até um outro apelido.
 
 #### 8. **git push**
-
+Agora finalmente!!! Iremos mandar os arquivos do seu repositório local até o seu repositório remoto!!! https://github.com/2504Guimaraes/Aprendendo_GIT.git
 
 
