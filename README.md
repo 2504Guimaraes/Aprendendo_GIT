@@ -122,29 +122,29 @@ Para fazer isso use o comando:
 #### `AVISO:`
 #### `Versão principal do comando:`
 
-- **git remote add** "apelido_branch_github" "url_branch_github"
+- **git remote add** "apelido_repositorio_github" "url_repositorio_github"
 - ##### Exemplo abaixo:
 - **git remote add** `origin` https://github.com/nomeUsuario/SeuRepositorioGithub.git
-- Deixando bem claro, **origin é o apelido que o seu repositório local dará ao galho (branch) do seu repositório remoto, aquele que fica lá no seu github**.
-- Levando em conta que o git é uma linha do tempo que pode levar a várias versões alternativas; imagine que tudo isso é um grande árvore, a raiz é o início do universo e o tronco é a timeline principal. Além da linha do tempo principal, existem suas versões alternativas, que seriam galhos ou **branches** diferentes da nossa árvore. Você pode escolher em qual galho / timeline quer por suas atualizações, caso não queria ter o risco de comprometer o branch principal com algum erro, ponha em um alternativo.
-- Escreva esse comando para adicionar um novo branch de um repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um branch de repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
+- Deixando bem claro, **origin é o apelido que o seu repositório local dará ao seu repositório remoto, aquele que fica lá no seu github**.
+- Levando em conta que o git é uma linha do tempo que pode levar a várias versões alternativas; imagine que tudo isso é um grande árvore, a raiz é o início do universo e o tronco é a timeline principal. Além da linha do tempo principal, existem suas versões alternativas, que seriam galhos ou **branches** diferentes da nossa árvore. Você pode escolher em qual galho / timeline quer por suas atualizações, caso não queria ter o risco de comprometer o branch principal com algum erro, ponha em um alternativo (ainda mais se for um projeto da sua empresa, porque você pode ser demitido 😙).
+- Escreva esse comando para adicionar um novo repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
 
 #### `outras variações:`
 
 - **git remote -v**
-  - Mostrará todos as urls de repositórios e branches remotos no github ao qual o seu repositório local tem conexão, junto dos respectivos apelidos deles.
-- **git remote rm** apelido_branch_repositorio_remoto
-  - Remove a conexão com algum branch remoto do github. Por exemplo; se eu não quisesse que meu projeto tivesse mais ligação com aquele branch do meu github ao qual eu apelidei de **origin**, eu simplesmente digitaria no meu prompt:
+  - Mostrará todos as urls de repositórios remotos no github ao qual o seu repositório local tem conexão, junto dos respectivos apelidos deles.
+- **git remote rm** apelido_repositorio_remoto
+  - Remove a conexão com algum repositório remoto do github. Por exemplo; se eu não quisesse que meu projeto tivesse mais ligação com aquele repositório do meu github, ao qual eu apelidei de **origin**; eu simplesmente digitaria no meu prompt:
   - **git remote rm** origin
     - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add** *apelido* de novo, e se eu quisesse poderia por até um outro apelido.
 
 #### 8. **git push**
 Agora finalmente, iremos mandar os arquivos do seu repositório local até o seu repositório remoto 😁😁😁. Sendo bem direto, existem variacões desse comando (como tudo em git), bem, ai está finalmente o quê você usará para mandar seus arquivos ao seu repositório remoto:
 
-  - **git push** **`apelido_branch_remoto`** **`nome_branch_local`**
+  - **git push** **`apelido_repositorio_remoto`** **`nome_branch_remoto_que_vc_deseja`**
     - Exemplo:
     - **git push** **`origin`** **`master`**
-    - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master**) até o branch escolhido por você (que já possui um apelido dado pelo seu git, no aqui foi apelidado de **origin**), que está lá no seu repositório remoto do Github.
+    - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master também**) até o repositório escolhido por você (que já possui um apelido dado pelo seu git, no aqui foi apelidado de **origin**).
     - E depois de todos esses detalhes, você **FINALMENTE** enviou seus dados até o seu Github! É isso ai 🤘.
 
 #### 9. git diff
