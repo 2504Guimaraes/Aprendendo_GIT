@@ -147,6 +147,11 @@ Agora finalmente, iremos mandar os arquivos do seu repositório local até o seu
     - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master**) até o branch escolhido por você (que já possui um apelido dado pelo seu git, no aqui foi apelidado de **origin**), que está lá no seu repositório remoto do Github.
     - E depois de todos esses detalhes, você **FINALMENTE** enviou seus dados até o seu Github! É isso ai 🤘.
 
+#### 9. git diff
+Um comando muito simples e bacana, caso você tenha arquivos que não foram nem rastreados pelo git (ou seja, você nem deu **git add** neles e eles são meros arquivos *normais* no seu diretório git), você pode usar esse comando para ver literalmente as diferenças que você pos neles. Sejam elas mudanças no texto deles.
+
+#### 10. git log
+Esse aqui é um comando muito útil, caso você queira ver todos os **commits** que você fez. digite simplesmente **git log**. Mostrando dados como, nome do branch local o no qual você fez seu **commit**, para onde você os mandou (se os mandou para algum repositório remoto), data do **commit** e etc.
 
 
 
