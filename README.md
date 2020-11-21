@@ -108,7 +108,7 @@ Ou seja, a grande idéia é que cada **commit** representa um **bloco de mudanç
     - Isso fará com que o VScode seja reconhecido como a ferramenta que te ajudará a escrever melhores descrições. 
     - **Finalmente**, assim que eu escrevo o comando **git commit**, o prompt ligará o VScode automaticamente, e me mostrará uma janela para eu poder escrever tanto o título do meu commit quanto o parágrafo descritivo. Se eu quiser, só o título mesmo.
     - Quando essa tela do VScode aparecer, ela terá textos escritos com hashtag (**#**) antes deles e eles não devem ser apagados. O quê você deve fazer é simplesmente escrever debaixo desses textos o seu título. Caso você quiser um parágrafo descritivo também, para fazer isso só dê um enter, pule uma linha e escreva-o.
-    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e feche-o. Assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado 😁.
+    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e feche-o. Assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado 😁😁.
 
 
 #### 7. **git reset HEAD~1**
@@ -122,22 +122,29 @@ Para fazer isso use o comando:
 #### `AVISO:`
 #### `Versão principal do comando:`
 
-- **git remote add** "apelido_do_repositorio_github" "url_do_repositorio_github"
+- **git remote add** "apelido_branch_github" "url_branch_github"
 - ##### Exemplo abaixo:
 - **git remote add** `origin` https://github.com/nomeUsuario/SeuRepositorioGithub.git
-- Deixando bem claro, **origin é o apelido que o seu repositório local dará ao seu repositório remoto, aquele que fica lá no seu github**.
-- Escreva esse comando para adicionar um novo repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
+- Deixando bem claro, **origin é o apelido que o seu repositório local dará ao galho (branch) do seu repositório remoto, aquele que fica lá no seu github**.
+- Levando em conta que o git é uma linha do tempo que pode levar a várias versões alternativas; imagine que tudo isso é um grande árvore, a raiz é o início do universo e o tronco é a timeline principal. Além da linha do tempo principal, existem suas versões alternativas, que seriam galhos ou **branches** diferentes da nossa árvore. Você pode escolher qual em qual galho / timeline quer por suas atualizações, caso não queria ter o risco de comprometer o branch principal com algum erro, ponha em um alternativo.
+- Escreva esse comando para adicionar um novo branch de um repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um branch de repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
 
 #### `outras variações:`
 
 - **git remote -v**
-  - Mostrará todos as urls de repositórios remotos no github ao qual o seu repositório local tem conexão, junto dos respectivos apelidos deles.
-- **git remote rm** apelido_repositorio_remoto
-  - Remove a conexão com algum repositório remoto do github. Por exemplo; se eu não quisesse que meu projeto tivesse mais ligação com aquele repositório do meu github ao qual eu apelidei de **origin**, eu simplesmente digitaria no meu prompt:
+  - Mostrará todos as urls de repositórios branches remotos no github ao qual o seu repositório local tem conexão, junto dos respectivos apelidos deles.
+- **git remote rm** apelido_branch_repositorio_remoto
+  - Remove a conexão com algum branch remoto do github. Por exemplo; se eu não quisesse que meu projeto tivesse mais ligação com aquele branch do meu github ao qual eu apelidei de **origin**, eu simplesmente digitaria no meu prompt:
   - **git remote rm** origin
     - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add...etc** de novo, e se eu quisesse poderia por até um outro apelido.
 
 #### 8. **git push**
-Agora finalmente!!! Iremos mandar os arquivos do seu repositório local até o seu repositório remoto!!! https://github.com/2504Guimaraes/Aprendendo_GIT.git
+Agora finalmente, Iremos mandar os arquivos do seu repositório local até o seu repositório remoto 😁😁😁. Sendo bem direto, existem variacões desse comando (como tudo em git), bem, ai está finalmente o quê você usará para mandar seus arquivos ao seu repositório remoto:
+
+  - **git push** **`apelido_branch_remoto`** **`nome_branch_local`**
+    - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master**) até o branch escolhido por você (que já possui um apelido dado pelo seu git), que está lá no seu repositório remoto do Github.
+    - E depois de todos esses detalhes, você **FINALMENTE** enviou seus dados até o seu Github! É isso ai 🤘.
+
+
 
 
