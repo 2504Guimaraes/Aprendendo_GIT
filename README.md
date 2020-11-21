@@ -142,7 +142,9 @@ Para fazer isso use o comando:
 Agora finalmente, Iremos mandar os arquivos do seu repositório local até o seu repositório remoto 😁😁😁. Sendo bem direto, existem variacões desse comando (como tudo em git), bem, ai está finalmente o quê você usará para mandar seus arquivos ao seu repositório remoto:
 
   - **git push** **`apelido_branch_remoto`** **`nome_branch_local`**
-    - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master**) até o branch escolhido por você (que já possui um apelido dado pelo seu git), que está lá no seu repositório remoto do Github.
+    - Exemplo:
+    - **git push** **`origin`** **`master`**
+    - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master**) até o branch escolhido por você (que já possui um apelido dado pelo seu git, no aqui foi apelidado de **origin**), que está lá no seu repositório remoto do Github.
     - E depois de todos esses detalhes, você **FINALMENTE** enviou seus dados até o seu Github! É isso ai 🤘.
 
 
