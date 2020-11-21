@@ -151,9 +151,9 @@ Agora finalmente, iremos mandar os arquivos do seu repositório local até o seu
 Um comando muito simples e bacana, caso você tenha arquivos que não foram nem rastreados pelo git (ou seja, você nem deu **git add** neles e eles são meros arquivos *normais* no seu diretório git), você pode usar esse comando para ver literalmente as diferenças que você pos neles. Sejam elas mudanças no texto deles. Apenas escreva seu **git diff**.
 
 #### 10. git log
-Esse aqui é um comando muito útil, caso você queira ver todos os **commits** que você fez. digite simplesmente **git log**. Mostrando dados como, nome do branch local o no qual você fez seu **commit**, para onde você os mandou (se os mandou para algum repositório remoto), data do **commit** e etc.
+Esse aqui é um comando muito útil, caso você queira ver todos os **commits** que você fez; digite simplesmente **git log**. Mostrando dados como, nome do branch local o no qual você fez seu **commit**, para onde você os mandou (se os mandou para algum repositório remoto), data do **commit** e etc.
 
-Caso você feito muitos commits, nem todos apareceram pelos próprios limites de tamanho fisico da tela, caso você queira que eles fiquem aparecendo na sua tela **igual a um terminal do linux**, apenas digite tecla para baixo ⬇️, e eles simplesmente irão aparecer. Caso não esteja interessado nisso, simplesmente aparte **w + q** igual no linux de novo, e pronto, a lista some.
+Caso você tenha feito muitos commits, nem todos aparecerão, devido aos próprios limites de tamanho físico da tela, caso você queira que eles fiquem aparecendo na sua tela **igual a um terminal do linux**, apenas digite tecla para baixo ⬇️, e eles simplesmente irão aparecer deslizando. Caso não esteja interessado nisso, simplesmente aparte **w + q** igual no linux de novo, e pronto, a lista some.
 
 
 
