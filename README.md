@@ -42,13 +42,13 @@ Diga ao sistema de versionamento quem você é, isso é vital para todo o histó
 Para fazer isso, digite dentro do prompt:
 
 <div>
-  - <strong>git config --global user.name</strong> "seu nome do github"
+  <strong>git config --global user.name</strong> "seu nome do github"
 </div>
 <div> 
-  - <strong>git config --global user.email</strong> "seu email do github"
+  <strong>git config --global user.email</strong> "seu email do github"
 </div>
 <div> 
-  - <strong>git config --global --list</strong> | Mostrará as informações que você digitou.
+  <strong>git config --global --list</strong> | Mostrará as informações que você digitou.
 </div>
 
 
