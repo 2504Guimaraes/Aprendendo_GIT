@@ -55,7 +55,7 @@ Para fazer isso, digite dentro do prompt:
 
 #### 4. **git add**
 
-Agora você finalmente inicializou sua pasta como um repositório local dentro do seu PC, e já existe um repositório no Github esperando para se conectar  com este seu projeto aqui na sua máquina. Nós já podemos fazer algo.
+Agora que você finalmente inicializou sua pasta como um repositório local dentro do seu PC, e já existe um repositório no Github esperando para se conectar  com este seu projeto aqui na sua máquina. Nós já podemos fazer algo.
 
 De maneira normal, você pode criar, editar e excluir arquivos aqui dentro da sua pasta. Mas eles não estarão sendo rastreados de imediato pelo sistema de versionamento. Isso significa que qualquer alteração neles será tratada como qualquer outra em alguma pasta aleatória do seu computador.
 
