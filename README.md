@@ -7,7 +7,7 @@ alguns conceitos de versionamento de código.
 ## Apresentação dos Conceitos:
 
 Estou usando guias de git muito bons em inglês que ensinam
-toda a metodologia e conceito de git, vindos do tutorial no site Devtools [aqui.](https://dev.to/gothamv/learn-the-basics-of-git-in-under-10-minutes-475c)
+toda a metodologia e conceito de git, vindos do tutorial no site dev.to [aqui.](https://dev.to/gothamv/learn-the-basics-of-git-in-under-10-minutes-475c)
 
 Todos os comandos aqui listados serão apresentados com
 técnicas de formatação(*markdown*) vindas do próprio 
@@ -74,7 +74,7 @@ Para ativar essa funcionalidade é necessário um dos seguintes comandos:
 
 Digitando apenas **git status** dentro da sua pasta linkada ao git, você consegue saber quais arquivos estão sendo observados / em espera para poderem ser **commitados**. Ou novamente, como diz o termo técnico: "*git staged files*".
 
-Esses arquivos aparecerão em uma lista simples em verde, esperando que você finalmente dê um commit (**que você ainda não deu, claro**) e *finalmente os registre como um novo degral no grupo de mudanças importantes do seu projeto*. 😊
+Esses arquivos aparecerão em uma lista simples em verde, esperando que você finalmente dê um commit (**que você ainda não deu, claro**) e *finalmente os registre como um novo degral no grupo de mudanças importantes do seu projeto* 😊.
 
 #### 6. **git commit**
 
@@ -108,4 +108,35 @@ Ou seja, a grande idéia é que cada **commit** representa um **bloco de mudanç
     - Isso fará com que o VScode seja reconhecido como a ferramenta que te ajudará a escrever melhores descrições. 
     - **Finalmente**, assim que eu escrevo o comando **git commit**, o prompt ligará o VScode automaticamente, e me mostrará uma janela para eu poder escrever tanto o título do meu commit quanto o parágrafo descritivo. Se eu quiser, só o título mesmo.
     - Quando essa tela do VScode aparecer, ela terá textos escritos com hashtag (**#**) antes deles e eles não devem ser apagados. O quê você deve fazer é simplesmente escrever debaixo desses textos o seu título. Caso você quiser um parágrafo descritivo também, para fazer isso só dê um enter, pule uma linha e escreva-o.
-    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado 😁.
+    - Depois de escrever o quê você queria, salve-o pelo próprio VScode (**File > Save** ou **Ctrl + S**) e feche-o. Assim o prompt de comando que você havia deixado aberto para fazer isso que eu falei; exibirá a mensagem de que o seu **commit** foi devidamente registrado 😁.
+
+
+#### 7. **git reset HEAD~1**
+Esse comando é bem simples conceitualmente falando. Ele simplesmente desfaz o último **commit** feito por você. E sim, ele é case sensitive, logo escreva direitinho.
+
+#### 8. **git remote**
+Estamos chegando naquele momento onde finalmente iremos conectar seu projeto / repositório local no o seu repositório remoto lá no Github. E para fazermos essa ponte, obviamente você deve avisar ao seu git para onde você enviará todas essas informações. 
+
+Para fazer isso use o comando:
+
+#### `AVISO:`
+#### `Versão principal do comando:`
+
+- **git remote add** "apelido_do_repositorio_github" "url_do_repositorio_github"
+- ##### Exemplo abaixo:
+- **git remote add** `origin` https://github.com/nomeUsuario/SeuRepositorioGithub.git
+- Deixando bem claro, **origin é o apelido que o seu repositório local dará ao seu repositório remoto, aquele que fica lá no seu github**.
+- Escreva esse comando para adicionar um novo repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
+
+#### `outras variações:`
+
+- **git remote -v**
+  - Mostrará todos as urls de repositórios remotos no github ao qual o seu repositório local tem conexão.
+- **git remote rm** apelido_repositorio_remoto
+  - Remove a conexão com algum repositório remoto do github. Por exemplo se eu não quisesse que meu projeto tivesse mais ligação com aquele repositório do meu github ao qual eu apelidei de **origin**, eu simplesmente digitaria no meu prompt:
+  - **git remote rm** origin
+    - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add** de novo, e se eu quisesse poderia por até um outro apelido.
+
+
+
+
