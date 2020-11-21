@@ -131,12 +131,13 @@ Para fazer isso use o comando:
 #### `outras variações:`
 
 - **git remote -v**
-  - Mostrará todos as urls de repositórios remotos no github ao qual o seu repositório local tem conexão.
+  - Mostrará todos as urls de repositórios remotos no github ao qual o seu repositório local tem conexão, junto dos respectivos apelidos deles.
 - **git remote rm** apelido_repositorio_remoto
-  - Remove a conexão com algum repositório remoto do github. Por exemplo se eu não quisesse que meu projeto tivesse mais ligação com aquele repositório do meu github ao qual eu apelidei de **origin**, eu simplesmente digitaria no meu prompt:
+  - Remove a conexão com algum repositório remoto do github. Por exemplo; se eu não quisesse que meu projeto tivesse mais ligação com aquele repositório do meu github ao qual eu apelidei de **origin**, eu simplesmente digitaria no meu prompt:
   - **git remote rm** origin
-    - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add** de novo, e se eu quisesse poderia por até um outro apelido.
+    - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add...etc** de novo, e se eu quisesse poderia por até um outro apelido.
 
+#### 8. **git push**
 
 
 
