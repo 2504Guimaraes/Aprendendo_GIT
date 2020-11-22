@@ -162,4 +162,3 @@ Mostra o **branch atual** que você está usando no seu repositório local do se
 Mostra todos os branches que o seu repositório local possui. Se você só tiver um e tiver acabado de criar seu repositório / projeto local, aparecerá "master" por padrão em verde.
 
 
-
