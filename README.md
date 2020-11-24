@@ -74,7 +74,7 @@ Para ativar essa funcionalidade é necessário um dos seguintes comandos:
 
 Digitando apenas **git status** dentro da sua pasta linkada ao git, você consegue saber quais arquivos estão sendo observados / em espera para poderem ser **commitados**. Ou novamente, como diz o termo técnico: "*git staged files*".
 
-Caso você ainda não tenha adicionado nenhum, eles apareceram como não adicionados obviamente, em vermelho. Agora, depois de vc dar **git add**, esses arquivos aparecerão em uma lista simples em verde, esperando que você finalmente dê um commit (**que você ainda não deu, claro**) e *finalmente os registre como um novo degral no grupo de mudanças importantes do seu projeto* 😊.
+Caso você ainda não tenha adicionado nenhum, eles aparecerão como não adicionados em vermelho. Agora, depois de vc dar **git add**, esses arquivos aparecerão em uma lista simples em verde, esperando que você finalmente dê um commit (**que você ainda não deu, claro**) e *finalmente os registre como um novo degral no grupo de mudanças importantes do seu projeto* 😊.
 
 #### 6. **git commit**
 
