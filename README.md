@@ -160,7 +160,3 @@ Mostra o **branch atual** que você está usando no seu repositório local do se
 
 #### 13. git branch
 Mostra todos os branches que o seu repositório local possui. Se você só tiver um e tiver acabado de criar seu repositório / projeto local, aparecerá "master" por padrão em verde.
-
-### 14. testando private repo
-
-
