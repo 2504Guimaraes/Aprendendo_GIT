@@ -138,7 +138,7 @@ Para fazer isso use o comando:
   - **git remote rm** origin
     - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add** *apelido* de novo, e se eu quisesse poderia por até um outro apelido.
 
-#### 8. **git push**
+#### 9. **git push**
 Agora finalmente, iremos mandar os arquivos do seu repositório local até o seu repositório remoto 😁😁😁. Sendo bem direto, existem variacões desse comando (como tudo em git), bem, ai está finalmente o quê você usará para mandar seus arquivos ao seu repositório remoto:
 
   - **git push** **`apelido_repositorio_remoto`** **`nome_branch_do_repositorio_remoto_que_vc_deseja`**
@@ -147,18 +147,18 @@ Agora finalmente, iremos mandar os arquivos do seu repositório local até o seu
     - O quê acontece aqui, é que você está *empurrando* / *pushing* seus dados do seu branch local (**que por padrão se chama master também**) até o repositório escolhido por você (que já possui um apelido dado pelo seu git, que aqui foi apelidado de **origin**).
     - E depois de todos esses detalhes, você **FINALMENTE** enviou seus dados até o seu Github! É isso ai 🤘.
 
-#### 9. git diff
+#### 10. git diff
 Um comando muito simples e bacana, caso você tenha arquivos que não foram nem rastreados pelo git (ou seja, você nem deu **git add** neles e eles são meros arquivos *normais* no seu diretório git), você pode usar esse comando para ver literalmente as diferenças que você pos neles. Sejam elas, mudanças no texto deles. Apenas escreva seu **git diff**.
 
-#### 10. git log
+#### 11. git log
 Esse aqui é um comando muito útil, caso você queira ver todos os **commits** que você fez; digite simplesmente **git log**. Mostrando dados como, nome do branch local no qual você fez seu **commit**, para onde você os mandou (se os mandou para algum repositório remoto), data do **commit**, email do autor (email que você botou) e etc.
 
 Caso você tenha feito muitos commits, nem todos aparecerão, devido aos próprios limites de tamanho físico da tela, caso você queira que eles fiquem aparecendo na sua tela **igual a um terminal do linux**, apenas digite tecla para baixo ⬇️, e eles simplesmente irão aparecer deslizando. Caso não esteja interessado nisso, simplesmente aparte **w + q** igual no linux de novo, e pronto, a lista some.
 
-#### 11. git branch --show-current
+#### 12. git branch --show-current
 Mostra o **branch atual** que você está usando no seu repositório local do seu PC. Exemplos: **main** ou **principal**, branch_de_testes, versão_do_projeto_bugada etc.
 
-#### 12. git branch
+#### 13. git branch
 Mostra todos os branches que o seu repositório local possui. Se você só tiver um e tiver acabado de criar seu repositório / projeto local, aparecerá "master" por padrão em verde.
 
 
