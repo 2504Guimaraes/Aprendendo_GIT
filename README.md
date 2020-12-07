@@ -140,7 +140,7 @@ Para fazer isso use o comando:
 - **git remote rm** apelido_repositorio_remoto
   - Remove a conexão com algum repositório remoto do github. Por exemplo; se eu não quisesse que meu projeto tivesse mais ligação com aquele repositório do meu github, ao qual eu apelidei de **origin**; eu simplesmente digitaria no meu prompt:
   - **git remote rm** origin
-    - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add** *apelido* de novo, e se eu quisesse poderia por até um outro apelido.
+    - Isso simplesmente apagaria minha conexão com ele. Caso eu quisesse me conectar novamente; escreveria **git remote add** *apelido* de novo, e se eu quisesse poderia por até um outro apelido com esse mesmo comando, já que é ele que determina qual será a url da sua conexão, e de que você a apelidará.
 
 #### 9. **git push**
 Agora finalmente, iremos mandar os arquivos do seu repositório local até o seu repositório remoto 😁😁😁. Sendo bem direto, existem variacões desse comando (como tudo em git), bem, ai está finalmente o quê você usará para mandar seus arquivos ao seu repositório remoto:
