@@ -69,6 +69,10 @@ Para ativar essa funcionalidade é necessário um dos seguintes comandos:
     - Adiciona todos os arquivos e pastas dentro do seu diretório git a lista de espera para serem commitados. Também conhecida como *git staged files waiting for commit*.
   - **git restore --staged** nome_arquivo
     - Caso você não queira mais que o seu arquivo escolhido seja rastreado e esteja na lista de espera, digite isso e ele voltará a ser só um arquivo comum.
+  - **git restore arquivo_escolhido**
+    - Esse vai mais longe, ele serve caso você queira desfazer mudanças em arquivos que nem estão marcados como *staged files*.
+  - **git restore .**
+    - É a mesma coisa que o de cima, porém para todos os arquivos do seu diretório.
 
 #### 5. **git status**
 
@@ -127,7 +131,7 @@ Para fazer isso use o comando:
 - **git remote add** `origin` https://github.com/nomeUsuario/SeuRepositorioGithub.git
 - Deixando bem claro, **origin é o apelido que o seu repositório local dará ao seu repositório remoto, aquele que fica lá no seu github**.
 - Levando em conta que o git é uma linha do tempo que pode levar a várias versões alternativas; imagine que tudo isso é um grande árvore, a raiz é o início do universo e o tronco é a timeline principal. Além da linha do tempo principal, existem suas versões alternativas, que seriam galhos ou **branches** diferentes da nossa árvore. Você pode escolher em qual galho / timeline quer por suas atualizações, caso não queria ter o risco de comprometer o branch principal com algum erro, ponha em um alternativo (ainda mais se for um projeto da sua empresa, porque você pode ser demitido 😙).
-- Escreva esse comando para adicionar um novo repositório remoto no github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
+- Escreva esse comando para adicionar um novo repositório remoto do github ao qual seu projeto será conectado e futuramente lançado (e sim, eu disse um novo pois dá pra conectar seu repositório local em mais de um repositório remoto). Mas isso só fez a ponte, então calma, porque seu projeto ainda está na sua máquina.
 
 #### `outras variações:`
 
