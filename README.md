@@ -164,3 +164,20 @@ Mostra o **branch atual** que você está usando no seu repositório local do se
 
 #### 13. git branch
 Mostra todos os branches que o seu repositório local possui. Se você só tiver um e tiver acabado de criar seu repositório / projeto local, aparecerá "master" por padrão em verde.
+
+#### 14. git checkout
+Esse comando reverte o estado do seu repositório para como ele estava na sua ultima commitada.
+  - Variações:
+    - **git checkout .**
+      - Reverte todos os seus arquivos no seu repositório para o status deles no commit anterior.
+    - **git checkout arquivo_escolhido**
+      - Reverterá apenas o status dessse arquivo para como ele era no commit anterior.
+
+
+
+#### 15. Racíocinio base para projetos no Github
+`#0` **[sua pasta]** `<= Tenha seu diretório em mãos.`
+`#1` **git init** `<= transforme seu giretório em um giretório git. =D`
+`#2` **git add .** `<= adicione todos os seus arquivos à area de espera.`
+`#3` **git commit -m "Projeto criado"** `<= Faça o seu registro de modificação.`
+`#4` **git push origin master** `<= Mande o que deseja para seu repositório no galho principal.`
