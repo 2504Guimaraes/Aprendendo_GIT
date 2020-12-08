@@ -202,5 +202,7 @@ Ou seja, ele é justamente usado quando você quer trazer as atualizações de u
 - **git pull** `nome_repositorio_desejado` `branch_desse_repo_desejado`
   - Exemplo:
     - **git pull** origin master
-      - Puxa dados vindos do repositório escolhido por você e apelidado de origin, pegando esses dados do branch *master* dele. 
+    - Puxa dados vindos do repositório escolhido por você e apelidado de origin, pegando esses dados do branch *master* dele.
+
+Ele é muito útil também quando o repositório do seu github está mais atualizado que o seu local. 
     
