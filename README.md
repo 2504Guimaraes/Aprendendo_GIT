@@ -204,5 +204,5 @@ Ou seja, ele é justamente usado quando você quer trazer as atualizações de u
     - **git pull** origin master
     - Puxa dados vindos do repositório escolhido por você e apelidado de origin, pegando esses dados do branch *master* dele.
 
-Ele é muito útil também quando o repositório do seu github está mais atualizado que o seu local. 
+Ele é muito útil também quando o repositório do seu github está mais atualizado que o seu local em commits feitos. 
     
