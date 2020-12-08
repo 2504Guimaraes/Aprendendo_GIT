@@ -192,4 +192,15 @@ Para fazer download de um repositório desejado por você (seja ele seu mesmo ou
   - Exemplo:
     - **git clone** [https://github.com/Gothamv/MuskCult](https://github.com/Gothamv/MuskCult)
     - Fazendo isso você simplesmente vai baixar a versão original à qual eu me inspirei para fazer esse artigo de estudos.
+
+#### 17. git pull
+
+Esse comando traz dados de um branch em um repositório remoto desejado por você lá no github; ao seu repositório local (sendo atualmente usado por você) ai na sua máquina. Juntando os dois e adicionando as novidades (ou concertos) feitos em B para  o seu A.
+
+Ou seja, ele é justamente usado quando você quer trazer as atualizações de um repositório externo para o seu próprio. Por isso a palavra *pull*, pois vem de puxar.
+
+- **git pull** `nome_repositorio_desejado` `branch_desse_repo_desejado`
+  - Exemplo:
+    - **git pull** origin master
+      - Puxa dados vindos do repositório escolhido por você e apelidado de origin, pegando esses dados do branch *master* dele. 
     
