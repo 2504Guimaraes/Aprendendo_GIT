@@ -176,8 +176,8 @@ Esse comando reverte o estado do seu repositório para como ele estava na sua ul
 
 
 #### 15. Racíocinio base para projetos no Github
-`#0` **[sua pasta]** `<= Tenha seu diretório em mãos.`
-`#1` **git init** `<= transforme seu giretório em um giretório git. =D`
-`#2` **git add .** `<= adicione todos os seus arquivos à area de espera.`
-`#3` **git commit -m "Projeto criado"** `<= Faça o seu registro de modificação.`
-`#4` **git push origin master** `<= Mande o que deseja para seu repositório no galho principal.`
+- `#0` **[sua pasta]** `<= Tenha seu diretório em mãos.`
+- `#1` **git init** `<= transforme seu giretório em um giretório git. =D`
+- `#2` **git add .** `<= adicione todos os seus arquivos à area de espera.`
+- `#3` **git commit -m "Projeto criado"** `<= Faça o seu registro de modificação.`
+- `#4` **git push origin master** `<= Mande o que deseja para seu repositório no galho principal.`
