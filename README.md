@@ -181,3 +181,15 @@ Esse comando reverte o estado do seu repositório para como ele estava na sua ul
 - `#2` **git add .** `<= adicione todos os seus arquivos à area de espera.`
 - `#3` **git commit -m "Projeto criado"** `<= Faça o seu registro de modificação.`
 - `#4` **git push origin master** `<= Mande o que deseja para seu repositório no galho principal.`
+
+#### 16. git clone 
+
+**`Fazendo Download de repositórios`**
+
+Para fazer download de um repositório desejado por você (seja ele seu mesmo ou criado por outra pessoa), apenas use o seguinte comando para clonar esse repositório em sua máquina:
+
+- **git clone URL_repositório_remoto**
+  - Exemplo:
+    - **git clone** [https://github.com/Gothamv/MuskCult](https://github.com/Gothamv/MuskCult)
+    - Fazendo isso você simplesmente vai baixar a versão original à qual eu me inspirei para fazer esse artigo de estudos.
+    
