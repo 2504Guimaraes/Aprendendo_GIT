@@ -209,3 +209,20 @@ Ele é muito útil também quando o repositório do seu github está mais atuali
 #### 18. git fetch
 
 Este é um primo do nosso anterior, **git pull**. No caso, a palavra *fetch* vem de buscar ou procurar em inglês, e é justamente o quê esse comando faz. Esse comando faz download dos últimos commits feitos no branch remoto, mas *não os incorpora* no repositório local que você está usando. Esses commits só estarão disponíveis no branch **origin \ master**. E o seu branch local atualmente sendo usado (por padrão chamado de master também) continuará intacto em termos de modificações feitas, porém estará em dia com os registros do outro. 
+
+#### 19. git branch nome_do_branch
+Muito simples, esse comando cria um novo branch no seu repositório com o nome que você escreveu.
+- Exemplos:
+  - **git branch** `atualizacao_do_css`
+  - Aqui eu simplesmente criei um novo branch que teoricamente vai conter versões atualizadas do CSS do projeto ao qual eu estaria fazendo originalmente.
+
+#### 20. git checkout branch_escolhido
+Também é simples, esse comando põe você no branch ao qual você escolheu. Se você estivesse no branch `master` e quissese mudar para o branch chamado `atualizacao_do_css`, você simplesmente escreveria:
+
+- **git checkout** `atualicacao_do_css`
+
+Ele possui uma variação interessante, ao qual permite você ir automaticamente para um branch o qual você acaba de criar, assim:
+
+- **git checkout** -b `novo_branch_criado`
+
+Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório. 
