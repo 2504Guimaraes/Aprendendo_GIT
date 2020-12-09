@@ -205,4 +205,7 @@ Ou seja, ele é justamente usado quando você quer trazer as atualizações de u
     - Puxa dados vindos do repositório escolhido por você e apelidado de origin, pegando esses dados do branch *master* dele.
 
 Ele é muito útil também quando o repositório do seu github está mais atualizado que o seu local em commits feitos. 
-    
+
+#### 18. git fetch
+
+Este é um primo do nosso anterior, **git pull**. No caso, a palavra *fetch* vem de buscar ou procurar em inglês, e é justamente o quê esse comando faz. Esse comando faz download dos últimos commits feitos no branch remoto, mas *não os incorpora* no repositório local que você está usando. Esses commits só estarão disponíveis no branch **origin \ master**. E o seu branch local atualmente sendo usado (por padrão chamado de master também) continuará intacto em termos de modificações feitas, porém estará em dia com os registros do outro. 
