@@ -226,3 +226,9 @@ Ele possui uma variação interessante, ao qual permite você ir automaticamente
 - **git checkout** -b `novo_branch_criado`
 
 Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório. 
+
+
+## Leitura Adicional
+- [How to use git merge in the correct way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)
+
+- [Creating a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
