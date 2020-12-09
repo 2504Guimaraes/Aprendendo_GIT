@@ -232,3 +232,5 @@ Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório
 - [How to use git merge in the correct way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)
 
 - [Creating a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+
+- [Deleting a local and a remote branch](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/)
