@@ -14,3 +14,5 @@ I have used very nice guides in English which teach the whole methodology about 
 You will need this program, because it's just the program that you need to manage version controlling on your PC. In the case that you're a Windows user, go on this [link](https://git-scm.com/download/win) for **instant download**.
 
 Alter that, verify on your command prompt; typing **git --version** to see if GIT is already installed.
+
+- Up to now, complete translation pending.

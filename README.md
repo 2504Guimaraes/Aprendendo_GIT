@@ -228,7 +228,10 @@ Ele possui uma variação interessante, ao qual permite você ir automaticamente
 Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório. 
 
 
-## Leitura Adicional
+## Leitura Adicional / Additional Reading
+
+-[Git Commands Tutorial](https://github.com/2504Guimaraes/Simple-Git-Tutorial/blob/master/README.eng_US.md)
+
 - [How to use git merge in the correct way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)
 
 - [Creating a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
