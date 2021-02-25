@@ -230,7 +230,7 @@ Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório
 
 ## Leitura Adicional / Additional Reading
 
--[Git Commands Tutorial](https://github.com/2504Guimaraes/Simple-Git-Tutorial/blob/master/README.eng_US.md)
+- [Git Commands Tutorial](https://github.com/2504Guimaraes/Simple-Git-Tutorial/blob/master/README.eng_US.md)
 
 - [How to use git merge in the correct way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)
 
