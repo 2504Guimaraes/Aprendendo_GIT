@@ -7,7 +7,7 @@ alguns conceitos de versionamento de código.
 ## Apresentação dos Conceitos:
 
 Estou usando guias de git muito bons em inglês que ensinam
-toda a metodologia e conceito de git, vindos do tutorial no site dev.to [aqui.](https://dev.to/gothamv/learn-the-basics-of-git-in-under-10-minutes-475c)
+toda a metodologia e conceito de git, vindos do tutorial no site dev.to [aqui.](https://dev.to/gothamv/learn-the-basics-of-git-in-under-10-minutes-475c).
 
 Todos os comandos aqui listados serão apresentados com
 técnicas de formatação(*markdown*) vindas do próprio 
