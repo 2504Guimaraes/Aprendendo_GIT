@@ -21,4 +21,11 @@ Alter that, verify on your command prompt; typing **git --version** to see if GI
 
 Create an empty repository on Github for in the future use it to bind and synchronize a repository inside your PC to it. And with that mechanism, manage the version controlling of your code linked to Github.
 
+#### 2. Turn a repository of your computer in a GIT repository
+
+#### `WARNING:`
+#### `The main content starts here.`
+
+Go to the folder you wish to turn in a local GIT repository on your PC. Through the use of cmd (command prompt), go to it by typing its path and to go inside it just type the command **cd folder's_name**, then just type **git init** inside that folder.
+
 - Up to now, complete translation pending.
