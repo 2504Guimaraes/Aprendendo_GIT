@@ -1,3 +1,5 @@
+![git_imag_illustration](https://raw.githubusercontent.com/2504Guimaraes/Simple-Git-Tutorial/master/images/unsplash_git_img.jpg)
+
 # Tutorial de comandos Git
 **`nota:`** ` eu posso ter feito alguns testes de comandos para aprendizado aqui dentro.`
 

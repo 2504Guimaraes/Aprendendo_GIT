@@ -1,3 +1,5 @@
+![git_imag_illustration](https://raw.githubusercontent.com/2504Guimaraes/Simple-Git-Tutorial/master/images/unsplash_git_img.jpg)
+
 # Git Commands Tutorial
 **`note:`** `I've probably made some command tests for self educational purposes here.`
 
@@ -13,6 +15,10 @@ I have used very nice guides in English which teach the whole methodology about 
 
 You will need this program, because it's just the program that you need to manage version controlling on your PC. In the case that you're a Windows user, go on this [link](https://git-scm.com/download/win) for **instant download**.
 
-Alter that, verify on your command prompt; typing **git --version** to see if GIT is already installed.
+Alter that, verify on your command prompt; typing **git --version** to see if GIT is already installed. In the affirmative case, it will show on the screen the number of the git version, otherwise windows will just tell you that there isn't any program of this nature installed.
+
+#### 1. Create a repository on Github
+
+Create an empty repository on Github for in the future use it to bind and synchronize a repository inside your PC to it. And with that mechanism, manage the version controlling of your code linked to Github.
 
 - Up to now, complete translation pending.
