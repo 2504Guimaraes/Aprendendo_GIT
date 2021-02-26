@@ -5,11 +5,11 @@
 
 This article has the aim of enhance, teach and remove doubts in my mind. And to help me with some version control concepts.
 
-# Concepts Introduction:
+## Concepts Introduction:
 
 I have used very nice guides in English which teach the whole methodology about GIT, they came from a tutorial on the dev.to website, [here](https://dev.to/gothamv/learn-the-basics-of-git-in-under-10-minutes-475c).
 
-# First Steps and Command List:
+## First Steps and Command List:
 
 #### 0. Download GIT (if it isn't already on your computer)
 
