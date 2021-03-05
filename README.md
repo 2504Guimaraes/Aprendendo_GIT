@@ -219,7 +219,7 @@ Muito simples, esse comando cria um novo branch no seu repositório com o nome q
   - Aqui eu simplesmente criei um novo branch que teoricamente vai conter versões atualizadas do CSS do projeto ao qual eu estaria fazendo originalmente.
 
 #### 20. git checkout branch_escolhido
-Também é simples, esse comando põe você no branch ao qual você escolheu. Se você estivesse no branch `master` e quissese mudar para o branch chamado `atualizacao_do_css`, você simplesmente escreveria:
+Também é simples, esse comando põe você no branch ao qual você escolheu (**Ele troca você de branch, desde que o branch exista**). Se você estivesse no branch `master` e quissese mudar para o branch chamado `atualizacao_do_css`, você simplesmente escreveria:
 
 - **git checkout** `atualicacao_do_css`
 
@@ -227,8 +227,16 @@ Ele possui uma variação interessante, ao qual permite você ir automaticamente
 
 - **git checkout** -b `novo_branch_criado`
 
-Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório. 
+Em outras palavras ele faz isso: Primeiro você está no branch A; você cria um branch B que é *idêntico* a esse branch A e logo em seguida entra dentro dele, e fim.
 
+  - **Exemplo para criar um novo branch local, automaticamente migrar para ele e logo em seguida criar um branch remoto de mesmo nome para enviar essas informações contidas nesse novo branch local:**
+
+    - **PASSO 01:** git checkout -b `nome_novo_branch`
+      - Cria o novo branch local necessário e já bota você dentro dele.
+    - **PASSO 02:** git push origin `nome_branch_remoto`
+      - Você já cria um branch remoto de mesmo nome, mandando as informações do seu novo branch local a esse remoto. E quando precisar enviar as informações do seu novo branch local novamente, repita o processo *git push origin `nome_branch_novo`*.
+
+Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório.
 
 ## Leitura Adicional / Additional Reading
 
