@@ -229,6 +229,14 @@ Caso você queira criar um **branch B** com as características / commits de um 
 
 Esses capítulos são complementos para as partes 12, 13 e 14 desse repositório.
 
+#### 22. git branch -d <branch_local>
+
+Exclui um branch local, mas não fará isso caso esse branch não tenha sigo mesclado (feito *merge*) com o branch master.
+
+#### 23. git branch -D <branch_local> 
+
+Exclui um branch local independente de *merge* ou não.
+
 ## Leitura Adicional / Additional Reading
 
 - [Git Commands Tutorial](https://github.com/2504Guimaraes/Simple-Git-Tutorial/blob/master/README.eng_US.md)
